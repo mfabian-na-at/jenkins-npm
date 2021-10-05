@@ -10,6 +10,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Construir la app'
+        sh 'pwd'
         sh 'npm install'
       }
     }
