@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo 'Construir la app'
         sh 'npm -v'
-        sh 'npm install'
+        sh '/usr/bin/npm install'
       }
     }
 
