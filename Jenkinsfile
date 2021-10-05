@@ -10,6 +10,8 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Construir la app'
+        sh 'cd /usr/bin/'
+        sh 'ls -las'
         sh '/usr/bin/npm install'
       }
     }
