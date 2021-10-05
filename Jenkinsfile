@@ -1,7 +1,7 @@
 pipeline {
   agent {
     any {
-      image 'node:6-alpine'
+      image 'mhart/alpine-node:slim-12'
       args '-p 3000:3000'
     }
 
