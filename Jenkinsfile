@@ -12,7 +12,7 @@ pipeline {
         echo 'Construir la app'
         sh 'cd /usr/bin'
         sh 'ls -las'
-        sh '/usr/bin/npm install'
+        sh 'node --version'
       }
     }
 
